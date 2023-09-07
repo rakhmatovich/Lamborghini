@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.romb {
+    transform: skew(-30deg);
+    background: #000;
+}
