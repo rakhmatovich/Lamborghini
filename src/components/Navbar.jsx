@@ -22,7 +22,6 @@ export default function Navbar() {
           </Link>
         </div>
         <div className="flex items-center">
-          <Link className="mx-2">DEALERSHIPS</Link>
           <Link className="mx-2">MUSEUM</Link>
           <Link to="/store" className="mx-2">
             STORE
