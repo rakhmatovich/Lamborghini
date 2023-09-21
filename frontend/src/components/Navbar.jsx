@@ -12,8 +12,9 @@ export default function Navbar() {
       </Link>
       <div className="flex justify-between flex-1">
         <div>
-          <Link className="mx-2">MODELS</Link>
-          <Link className="mx-2">BEYOND</Link>
+          <Link to="/models" className="mx-2">
+            MODELS
+            </Link>
           <Link to="/company" className="mx-2">
             COMPANY
           </Link>
@@ -22,7 +23,12 @@ export default function Navbar() {
           </Link>
         </div>
         <div className="flex items-center">
-          <Link className="mx-2">MUSEUM</Link>
+        <Link to="/shop" className="mx-2">
+            SHOP
+            </Link>
+          <Link to="/museum" className="mx-2">
+            MUSEUM
+            </Link>
           <Link to="/store" className="mx-2">
             STORE
           </Link>

@@ -3,5 +3,12 @@
 @tailwind utilities;
 
 .romb {
-    transform: skew(-30deg);
+    transform: skew(-15deg);
+}
+
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
 }
